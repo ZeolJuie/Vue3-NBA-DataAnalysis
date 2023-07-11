@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "echarts": "^5.4.2",
+    "jquery": "^3.7.0",
+    "vue": "^3.2.13",
+    "vue-router": "^4.2.4",
+    "vxe-table": "^4.4.2",
+    "xe-utils": "^3.5.11"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -23,7 +28,8 @@
   "eslintConfig": {
     "root": true,
     "env": {
-      "node": true
+      "node": true,
+      "jquery": true
     },
     "extends": [
       "plugin:vue/vue3-essential",
