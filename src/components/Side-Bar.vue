@@ -39,7 +39,7 @@ data() {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 1);
+    background: rgb(255, 255, 255);
     border-right: solid 1px rgb(219, 219, 219);
     box-sizing:border-box;
 }
@@ -78,20 +78,20 @@ data() {
     width: 150px;
     height: 40px;
     margin-top: 10px;
+    box-sizing: border-box;
 }
-.menu ul :hover{
+.menu ul li:hover {
     border: solid 1px rgb(231, 231, 231);
     border-radius: 10px;
     background: rgb(242, 242, 242);
 }
 .menu-text {
     position: absolute; 
-    top:0;
+    top: 0;
     font-size: small;
-    margin-top: 10px;
-    line-height: 20px;
+    height: 40px;
+    line-height: 40px;
     color:rgb(16, 36, 62);
-    pointer-events: fill;
     text-decoration: none;
 }
 

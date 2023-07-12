@@ -1,28 +1,24 @@
 <template>
-  
+
   <div id="app">
     <side-bar></side-bar>
     <div id="bkg"></div>
     <div id="bkg-block"></div>
     <div id="main-content">
-      <router-view>
-        <team-detail></team-detail>
-      </router-view>
-
+      <router-view></router-view>
     </div>
   </div>
-  
+
 </template>
 
 <script>
 import SideBar from './components/Side-Bar.vue'
-import TeamDetail from './components/Team-Detail.vue'
+// import TeamDetail from './components/Team-Detail.vue'
 export default{
   name:"app",
   components: {
     SideBar,
-    TeamDetail
-  }
+  },
 }
 </script>
 
@@ -50,7 +46,7 @@ export default{
   position: absolute;
   right: 0;
   box-sizing:border-box;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(247, 247, 247, 0.6);
 }
 
 
